@@ -53,12 +53,14 @@ def main():
     # this should fail
     n: list[str] = ['3.14159',]
     print(f'before, {n =}')
+    error_encountered =  None
     try:
         increment_number_passed_in_list(n)
     except Exception as e:
-        print(e, file = sys.stderr, flush = True)
-        time.sleep(0.0119) # force error message to appear before Finally message.
+        error_encountered = e
     finally:
+        if error_encountered is not None:
+            print(f'\033[31m{error_encountered}\033[0m')
         print(f'after, {n =}')
 
 
