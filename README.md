@@ -19,3 +19,5 @@ such as using `colorama` to enhance error message output.
 
 ## References
 * [colorama GitHub repo](https://github.com/tartley/colorama/tree/master)
+* [colorama tutorial YouTube](https://www.youtube.com/watch?v=bg-quTTOeH4)
+* [colorama PyPl link](https://pypi.org/project/colorama/)
