@@ -6,6 +6,7 @@ Short description of project
 | Tool     |  Version |
 |:---------|---------:|
 | Python   |   3.13.2 |
+ | colorama | 0.4.6 |
 | PyCharm  | 2024.3.3 |
 | VSCode   |   1.97.1 |
 
@@ -13,7 +14,7 @@ Short description of project
 
 | Date       | Description      |
 |:-----------|:-----------------|
-| 2025-02-17 | Initial creation |
+| 2025-02-17 | Initial creation | 
 
 ## References
-* TBD
+* [colorama GitHub repo](https://github.com/tartley/colorama/tree/master)

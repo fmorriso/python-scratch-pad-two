@@ -1,5 +1,5 @@
-import sys, time
-
+import sys
+from colorama import Back,Fore,Style
 
 def modify_primitive_number(n: float | int) -> None:
     n += 1
@@ -60,7 +60,8 @@ def main():
         error_encountered = e
     finally:
         if error_encountered is not None:
-            print(f'\033[31m{error_encountered}\033[0m')
+            #print(f'\033[31m{error_encountered}\033[0m')
+            print(f'{Fore.RED + Back.LIGHTWHITE_EX}{error_encountered}{Style.RESET_ALL}')
         print(f'after, {n =}')
 
 
