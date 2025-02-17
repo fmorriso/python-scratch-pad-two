@@ -9,7 +9,7 @@ such as using `colorama` to enhance error message output.
 | Python   |   3.13.2 |
 | colorama |    0.4.6 |
 | PyCharm  | 2024.3.3 |
-| VSCode   |   1.97.1 |
+| VSCode   |   1.97.2 |
 
 ## Change History
 
