@@ -57,7 +57,7 @@ def main():
         increment_number_passed_in_list(n)
     except Exception as e:
         print(e, file = sys.stderr, flush = True)
-        time.sleep(0.0115) # force error message to appear before Finally message.
+        time.sleep(0.0119) # force error message to appear before Finally message.
     finally:
         print(f'after, {n =}')
 
