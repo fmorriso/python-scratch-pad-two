@@ -1,12 +1,13 @@
 # Python Scratch Pad
-Short description of project
+A scratch pad to try out different ideas in python,
+such as using `colorama` to enhance error message output.
 
 ## Tools Used
 
 | Tool     |  Version |
 |:---------|---------:|
 | Python   |   3.13.2 |
- | colorama | 0.4.6 |
+| colorama |    0.4.6 |
 | PyCharm  | 2024.3.3 |
 | VSCode   |   1.97.1 |
 
